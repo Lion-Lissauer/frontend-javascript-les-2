@@ -7,6 +7,9 @@
 // ==========================================
 
 
+for (let i = 0; i < 3; i++) {
+    console.log("hoera!");
+}
 
 // ==========================================
 // Opdracht 2. Maak een for-loop die 4 keer het woord "loop..." logt, en bij de vijfde loop het woord "klaar!"
