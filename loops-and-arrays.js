@@ -5,6 +5,11 @@
 // ==========================================
 
 const names = ["Henk", "Piet", "Fred", "Joop"];
+console.log(names);
+
+for (let i = 0; i < names.length; i++) {
+    console.log(names[i] + "je");
+}
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
@@ -18,8 +23,12 @@ const names = ["Henk", "Piet", "Fred", "Joop"];
 // Schrijf een script dat ieder getal in bovenstaande array met 3 vermenigvuldigd.
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 getallen zou bevatten!
 // ==========================================
+var numbers = [2, 4, 5, 29, 38];
+console.log(numbers);
 
-const numbers = [2, 4, 5, 29, 38];
+for (let i = 0; i < numbers.length; i++) {
+    console.log(numbers[i] * 3);
+}
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
@@ -36,6 +45,11 @@ const numbers = [2, 4, 5, 29, 38];
 // ==========================================
 
 const squares = [30, 2, 8, 24, 11];
+    console.log(squares);
+
+for (let i = 0; i < squares.length; i++) {
+    console.log(squares[i] ** 3)
+}
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
